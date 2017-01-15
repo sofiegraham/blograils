@@ -103,7 +103,7 @@ a img {
 }
 .fancy-button-reset-base-class,
 input[type=submit] {
-    font-family: "Lucida Grande", Lucida, Arial, sans-serif;
+    font-family: "Avenir", Avenir, Arial, sans-serif;
     background: url('/images/button_bg.png?1301401396') repeat-x bottom left;
     margin: 0;
     width: auto;
@@ -144,10 +144,10 @@ summary {
 }
 .headings,
 h1 {
-    font-family: "Yanone Kaffeesatz", sans
+    font-family: "Avenir", Avenir, Arial, sans-serif;
 }
 html {
-    background: #d3dd8a;
+    background: #1695A3;
     -moz-background-size: 80px 80px;
     -webkit-background-size: 80px 80px;
     -o-background-size: 80px 80px;
@@ -157,10 +157,10 @@ html {
     background-image: linear-gradient(left top, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0))
 }
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans;
+    font-family: "Avenir", Avenir, Arial, sans-serif;
     background: #fff;
     margin: 50px auto 30px;
-    color: #2d4159;
+    color: #1695A3;
     padding: 20px;
     width: 85%;
     min-width: 600px;
@@ -193,7 +193,7 @@ body:before {
     right: 8px;
     top: 8px;
     height: 260px;
-    background: #2b445c;
+    background: #1c4564;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     -o-border-radius: 6px;
@@ -238,10 +238,10 @@ body:after {
     box-shadow: rgba(0, 0, 0, 0.3) 0 2px 5px 1px
 }
 a {
-    color: #2d4159
+    color: #EB7F00
 }
 a:hover {
-    color: #233245
+    color: #eb5800
 }
 p.flash {
     -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px;
@@ -309,9 +309,9 @@ h1 {
     -ms-border-top-right-radius: 6px;
     -khtml-border-top-right-radius: 6px;
     border-top-right-radius: 6px;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #42678d), color-stop(100%, #223447));
-    background-image: -moz-linear-gradient(#42678d, #223447);
-    background-image: linear-gradient(#42678d, #223447);
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #225378), color-stop(100%, #1c4564));
+    background-image: -moz-linear-gradient(#225378, #1c4564);
+    background-image: linear-gradient(#225378, #1c4564);
     -moz-box-shadow: rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
     -webkit-box-shadow: rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
     -o-box-shadow: rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
@@ -342,7 +342,7 @@ h1:after {
 h2,
 h3,
 h4 {
-    color: #2d4159;
+    color: #1695A3;
     font-size: 1.3em;
     line-height: 1.5em;
     margin: .2em 0 .5em
@@ -361,7 +361,7 @@ h4 {
 }
 .comment p:first-child {
     font-weight: bold;
-    color: #2d4159;
+    color: #1695A3;
     padding-left: 0;
     border: 0;
     padding-bottom: 1em
@@ -405,11 +405,11 @@ a.new_article,
     -ms-border-radius: 1.2em;
     -khtml-border-radius: 1.2em;
     border-radius: 1.2em;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
-    background-image: -moz-linear-gradient(#ffffff, #cccccc);
-    background-image: linear-gradient(#ffffff, #cccccc);
-    text-shadow: #fff 0 1px;
-    color: #999999;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #EB7F00), color-stop(100%, #b81700));
+    background-image: -moz-linear-gradient(#EB7F00, #b81700);
+    background-image: linear-gradient(#EB7F00, #b81700);
+    text-shadow: #6c0d00 0 1px;
+    color: #fff;
     text-decoration: none
 }
 .top-button:hover,
@@ -483,7 +483,7 @@ a.new_article:active,
 #articles li > a:first-child {
     font-weight: bold;
     display: block;
-    color: #2d4159;
+    color: #1695A3;
     padding-bottom: .1em
 }
 #articles .actions {
@@ -610,7 +610,7 @@ form p {
     margin-bottom: .6em
 }
 form label {
-    color: #6c7c9a;
+    color: #bed8d7;
     font-size: .9em;
     font-weight: bold;
     line-height: 1.5em;
